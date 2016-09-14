@@ -1,0 +1,213 @@
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary,
+time,mark,audio,video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+body {
+    line-height:1;
+}
+ol,ul {
+    list-style:none;
+}
+blockquote,q {
+    quotes:none;
+}
+blockquote:before,blockquote:after,
+q:before,q:after {
+    content:’’;
+    content:none;
+}
+/* remember to define visible focus styles!
+:focus {
+    outline:?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration:none;
+}
+del {
+    text-decoration:line-through;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  max-width: 1180px;
+  padding: 0px 60px;
+  margin: 40px auto;
+}
+a {
+  text-decoration: none;
+  box-shadow: inset 0 -3px 0 #d3daff;
+  white-space: nowrap;
+}
+a, a:visited, a:active {
+  color: #3f51b5;
+}
+a:hover {
+  color: #001dc1;
+  box-shadow: inset 0 -3px 0 #a0b0ff;
+} 
+hr {
+  margin: 15px 220px;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+#me {
+  margin-bottom: 30px;
+  padding-left: 220px;
+  position: relative;
+}
+#me img {
+  position: absolute;
+  top: 65px;
+  left: 72px;
+}
+h1 {
+  font-size: 35px;
+  letter-spacing: -1px;
+  margin-bottom: 7px;
+  position: relative;
+  left: -2px;
+}
+nav {
+  line-height: 20px;
+}
+#me p {
+  margin: 20px 50px 0 0;
+  line-height: 20px;
+}
+small {
+  font-size: 80%;
+}
+#me a {
+  margin-right: 10px;
+}
+section {
+  padding: 5px 0 20px 0;
+}
+h2, aside {
+  width: 200px;
+  text-align: right;
+}
+h2 {
+  font-size: 25px;
+  position: relative;
+}
+h2:after {
+  content: "›";
+  position: absolute;
+  right: -14px;
+}
+h3 {
+  font-weight: bold;
+}
+h3 a {
+  font-weight: normal;
+  margin-left: 10px;
+}
+section p, h3, dl {
+  padding-left: 220px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+section p, dl {
+  margin-left: 10px;
+  font-size: 15px;
+}
+p.one-line {
+  margin-top: 0;
+}
+dl {
+  font-size: 14px;
+}
+dt, dd {
+  margin-bottom: 5px;
+  line-height: 17px;
+}
+dt {
+  width: 106px;
+  float: left;
+  text-align: right;
+}
+dt:after {
+  content: "›";
+  margin: 0 10px;
+}
+dd {
+  margin-left: 106px;
+}
+aside {
+  float: left;
+}
+aside, aside > div {
+  line-height: 20px;
+  font-weight: lighter;
+}
+.role {
+  margin-bottom: 10px;
+}
+aside.meta, aside .meta, aside .date, aside a {
+  font-size: 13px;
+}
+aside.meta, aside .meta {
+  color: grey;
+}
+h3 .meta {
+  font-size: 15px;
+  font-weight: normal;
+}
+h3 .meta:before {
+  content: "›";
+  margin: 0 10px;
+}
+header.inline {
+  float: left;
+}
+h3.inline, p.inline {
+  margin-top: 6px;
+}
+footer {
+  text-align: center;
+}
+footer img {
+  -moz-transform: scaleX(-0.8);
+  -o-transform: scaleX(-0.8);
+  -webkit-transform: scaleX(-0.8);
+  transform: scaleX(-0.8);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
