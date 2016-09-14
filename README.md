@@ -1,3 +1,3 @@
 # Case Prince's Resume
 
-[http://caseprince.com/resume/]
+http://caseprince.com/resume/
