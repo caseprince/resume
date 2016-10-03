@@ -211,3 +211,14 @@ footer img {
   filter: FlipH;
   -ms-filter: "FlipH";
 }
+
+@media print {
+  body {
+    zoom:75%;
+  }
+  .page-break { display: block; page-break-before: always; }
+}
+
+@page {
+  size: 8.5in 11in;
+}
