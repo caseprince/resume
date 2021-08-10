@@ -260,12 +260,6 @@ dd:before {
 dd {
   margin-left: 118px;
 }
-dl.grabcad > dt {
-  min-width: 107px;
-}
-dl.grabcad > dd {
-  margin-left: 134px;
-}
 aside {
   float: left;
 }
