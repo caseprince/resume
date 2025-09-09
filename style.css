@@ -240,6 +240,9 @@ ul {
 p.one-line {
   margin-top: 0;
 }
+p {
+  break-inside: avoid;
+}
 dl {
   font-size: 14px;
 }
