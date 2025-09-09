@@ -144,7 +144,7 @@ html {
 }
 
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   max-width: 1180px;
   padding: 0px 60px;
   margin: 40px auto;
@@ -225,13 +225,15 @@ h3 a {
 }
 section p,
 h3,
-dl {
+dl,
+ul {
   padding-left: 220px;
   line-height: 20px;
   margin-top: 10px;
 }
 section p,
-dl {
+dl,
+ul {
   margin-left: 10px;
   font-size: 15px;
 }
@@ -259,6 +261,10 @@ dd:before {
 }
 dd {
   margin-left: 118px;
+}
+ul li {
+  list-style-type: "› ";
+  margin-bottom: 10px;
 }
 aside {
   float: left;
@@ -307,7 +313,9 @@ footer img {
   filter: FlipH;
   -ms-filter: "FlipH";
 }
-
+b {
+  font-weight: 600;
+}
 @media print {
   body {
     zoom: 75%;

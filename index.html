@@ -35,7 +35,6 @@
         </h3>
       </div>
       <div>
-        <aside class="meta">Boston, MA</aside>
         <h3>
           Mass College of Art<span class="meta"
             >SIM (Studio for Interrelated Media) Courses on Electronic,
@@ -55,34 +54,83 @@
         </aside>
 
         <h3>
-          GrabCAD <a href="https://grabcad.com/">grabcad.com</a> / Stratasys
-          <a href="https://www.stratasys.com/">stratasys.com</a>
+          Stratasys
+          <a href="https://www.stratasys.com/">stratasys.com</a> | GrabCAD
+          <a href="https://grabcad.com/">grabcad.com</a>
         </h3>
-
+        <ul>
+          <li>
+            Top contributor to multiple interconnected desktop, cloud, and SaaS
+            applications across the
+            <a href="https://grabcad.com/streamline-pro"
+              >GrabCAD Additive Manufacturing Platform</a
+            >.
+          </li>
+          <li>
+            Led design and development of multiple greenfield projects in close
+            collaboration with Product and Design teams.
+          </li>
+          <li>
+            Engaged with customers to demo prototypes and gather feedback.
+          </li>
+          <li>Established best practices for code quality and testing.</li>
+          <li>Improved CI/CD pipelines, developer tooling & documentation.</li>
+          <li>
+            Mentored junior developers and interns through thoughtful code
+            review and peer-programming.
+          </li>
+          <li>
+            Contributed to R&D initiatives and designed marketing materials for
+            cutting edge 3D printing workflows and technologies.
+          </li>
+        </ul>
+        <aside>Products / Initiatives</aside>
         <p>
-          As a Staff Software Engineer, I mentored junior developers and led key
-          cross-team projects across an ecosystem of interconnected products. I
-          contributed to R&D initiatives and designed marketing materials for
-          cutting edge 3D printing workflows. I helped establish best practices
-          for software development and foster a culture of collaboration, while
-          branching into Design and Product roles as necessary.
+          <a href="https://grabcad.com/print">GrabCAD Print</a>: The primary
+          user interface for all Stratasys 3D printers; FDM & PolyJet. It
+          handles CAD model slicing & print preparation locally, and enables
+          remote job scheduling, queue management, and reporting tools for
+          networked printers. It's built on Electron + React + TypeScript, with
+          a plugin-based/dependency-injected architecture, and is auto-updated
+          on a monthly release cycle.
         </p>
-
+        <dl>
+          <dt>Contributions</dt>
+          <dd>
+            Improved app-wide UX consistency, maintainability, and increased
+            developer velocity by introducing UI Component Library.
+          </dd>
+          <dd>
+            Increased user value with addition & refinement of numerous core
+            features including: Project Panel, Main Toolbar, Printer List,
+            Preferences Modal, Drag-n-Drop files, Recent files, Auto-Update.
+          </dd>
+          <dd>
+            Improved unit, integration, and diagnostic test quality, coverage,
+            and tooling. Ensured installer integrity with automated end-to-end
+            tests using virtual machines in the cloud.
+          </dd>
+          <dd>
+            Freed up developer resources by automating previously manual,
+            error-prone installer build, sign, deploy, and release process to
+            the point where the QA organization could take full ownership.
+          </dd>
+        </dl>
         <p>
-          <b>Print Scheduler:</b> Led the execution of a green-field project to
-          replace the legacy Printer queue management system with a hybrid
+          <b>Print Scheduler:</b> Led the execution of a greenfield project to
+          replace the legacy 3D Printer queue management system with a hybrid
           on-prem/cloud system integrating networked Printers connected locally,
           via legacy cloud infrastructure, or new AWS Greengrass IoT Gateways.
           The system needed to integrate with existing workflows, while allowing
           customers to seamlessly upgrade and unlock new features such as moving
           Jobs between Printers, automatic load balancing, robust audit trails,
           search, and reprint. It was designed from the ground up to be
-          functional in a fully offline environment, to support the security
+          functional in fully offline environments, supporting the security
           requirements of government and defense customers.
         </p>
 
         <p>
-          <a href="https://company.grabcad.com">GrabCAD Control</a>: The
+          <a href="https://grabcad.com/control">GrabCAD Control</a>: The
           authentication and authorization hub of the GrabCAD Additive
           Manufacturing Platform. Features: Enterprise SSO, User & Group
           Management, Access Control of Printers, Granular Permissions,
@@ -91,21 +139,23 @@
         <dl>
           <dt>Contributions</dt>
           <dd>
-            Architecture, database design, UI/UX, CI/CD, and documentation.<br />
+            Architecture, database design, UI/UX, CI/CD, and documentation.
+          </dd>
+          <dd>
             Completion of stalled multi-year effort to replace legacy auth
-            system with AWS Cognito. I completed this project as half of a 2 dev
-            "tiger team". We pivoted from a high-risk rollout plan to a
-            low-risk, incremental approach and delivered with zero-downtime or
-            regressions.
+            system with AWS Cognito for 100K+ users. I completed this project as
+            half of a 2 dev "tiger team". We pivoted from a high-risk rollout
+            plan to a low-risk, incremental approach and delivered with zero
+            downtime and no regressions.
           </dd>
         </dl>
 
         <p>
-          <a href="https://grabcad.com/shop">GrabCAD Shop</a>: A green-field
-          SaaS product for work order and resource management in "Modal Shops"
-          using additive and traditional manufacturing technologies. Features:
-          CAD model previews, order configuration & price quoting based on
-          automatic material usage and machine-time estimates, granular
+          <a href="https://grabcad.com/shop">GrabCAD Shop</a>: A greenfield SaaS
+          product for work order and resource management in industrial "Model
+          Shops" using additive and traditional manufacturing technologies.
+          Features: CAD model previews, order configuration & price quoting
+          based on automatic material usage and machine-time estimates, granular
           user-roles, printer & material management, order & job scheduling &
           process tracking, rich per-Shop configuration options,
           internationalization across 10 languages and 100+ currencies.
@@ -119,43 +169,6 @@
             features and optimizations.
           </dd>
         </dl>
-
-        <p>
-          <a href="https://grabcad.com/print">GrabCAD Print</a> is the primary
-          user interface for all Stratasys 3D printers; FDM & PolyJet. It
-          handles print preparation & slicing locally, and enables remote job
-          scheduling, queue management, and reporting tools for networked
-          printers. It's built on Electron + React + TypeScript, with a
-          plugin-based/dependency-injected architecture, and is auto-updated on
-          a monthly release cycle.
-        </p>
-
-        <dl>
-          <dt>Contributions</dt>
-          <dd>
-            App-wide UI overhaul with introduction of Component Library and JSX.
-          </dd>
-          <dd>
-            Added, refined, & enhanced numerous core features to improve UI/UX,
-            maintainability, including: Project Panel, Main Toolbar, Printer
-            List, Preferences Modal, Drag-n-Drop files, Recent files,
-            Auto-Update.
-          </dd>
-          <dd>
-            Improved unit, integration, and diagnostic test quality, coverage,
-            and tooling.
-          </dd>
-          <dd>
-            Automated previously manual/tedious/error-prone release, build,
-            sign, and deploy process for the desktop app to the point where QA
-            could take ownership of deployment.
-          </dd>
-          <dd>
-            Worked with team to develop per-machine WiX installer, expand CI
-            installer test automation to test auto-updates end-to-end using
-            virtual machines in the cloud.
-          </dd>
-        </dl>
       </div>
       <hr />
       <div>
@@ -166,11 +179,12 @@
         </aside>
         <h3>AppNeta <a href="https://www.appneta.com">appneta.com</a></h3>
         <p>
-          <a href="https://www.appneta.com/products/traceview/">TraceView</a> is
-          a best-of-breed SaaS Application. As a member of TraceView's Web App
-          team, I collaborated with Product Managers, Designers, and distributed
-          Developer teams to design, develop, and deliver new features and
-          visualizations, including the
+          <a href="https://www.appneta.com/products/traceview/">TraceView</a>
+          was a best-of-breed Application-Performance-Management (APM) SaaS
+          Application. As a member of TraceView's Web App team, I collaborated
+          with Product Managers, Designers, and distributed Developer teams to
+          design, develop, and deliver new features and visualizations,
+          including the
           <a href="https://caseprince.com/#appmap"
             >AppMap network topology graph</a
           >
@@ -247,8 +261,9 @@
     <section>
       <header class="inline"><h2>Skillsets</h2></header>
       <p class="inline">
-        Software Engineering, UI/UX, DB Schema Design, Web Design & Development,
-        Data Visualization, TDD, CAD, Branding.
+        Software Engineering, UI/UX, Database Schema Design, Web Design &
+        Development, Data Visualization, TDD, CAD, Branding,
+        Authentication/Authorization.
       </p>
       <p>
         Fluent in TypeScript, JavaScript (ES6+), Node, React, Vue, D3, THREE.js,
@@ -262,9 +277,9 @@
     <section>
       <header class="inline"><h2>Strengths</h2></header>
       <p class="inline">
-        Writing legible and maintainable code. Debugging. Refactoring.
-        Communication. Mentorship. Code Review.<br />
-        Creative and Collaborative Problem Solving.
+        Collaboration/Brainstorming, Writing legible and maintainable code,
+        Debugging, Refactoring, Written and Verbal Communication, Mentorship,
+        Code Review, Creative Problem Solving
       </p>
     </section>
     <section>
@@ -305,10 +320,11 @@
 
       <p class="one-line">
         SCUL (chopper bicycle gang ›
-        <a href="http://www.scul.org/">www.scul.org</a>), kinetic & electronic
-        sculpture, LEDs, Arduino, procedural 3d printed lamps, hiking,
-        gardening,
-        <a href="http://caseprince.com/spheres/">collecting spheres</a>.
+        <a href="http://www.scul.org/">www.scul.org</a>), LEDs, Arduino,
+        <a
+          href="https://blog.grabcad.com/blog/2018/11/28/italian-marbled-voxels-on-the-stratasys-j750/"
+          >procedural 3D printed lamps</a
+        >, hiking, gardening, collecting spheres.
       </p>
     </section>
 
