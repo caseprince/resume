@@ -1,3 +1,7 @@
+:root {
+  --left-col: 220px;
+}
+
 html,
 body,
 div,
@@ -116,12 +120,6 @@ q:after {
   content: ’’;
   content: none;
 }
-/* remember to define visible focus styles!
-:focus {
-    outline:?????;
-} */
-
-/* remember to highlight inserts somehow! */
 ins {
   text-decoration: none;
 }
@@ -164,14 +162,14 @@ a:hover {
   box-shadow: inset 0 -3px 0 #a0b0ff;
 }
 hr {
-  margin: 15px 220px;
+  margin: 15px var(--left-col);
   border: 0;
   height: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.15);
 }
 #me {
   margin-bottom: 30px;
-  padding-left: 220px;
+  padding-left: var(--left-col);
   position: relative;
 }
 #me img {
@@ -227,7 +225,7 @@ section p,
 h3,
 dl,
 ul {
-  padding-left: 220px;
+  padding-left: var(--left-col);
   line-height: 20px;
   margin-top: 10px;
 }
@@ -328,6 +326,27 @@ b {
     page-break-before: always;
   }
 }
+
+/* Single column for PDF bots? */
+/* @media print {
+  :root {
+    --left-col: 0px;
+  }
+  img {
+    display: none;
+  }
+  header.inline {
+    float: none;
+  }
+  h2 {
+    display: inline;
+    width: unset;
+  }
+  aside {
+    float: none;
+    text-align: left;
+  }
+} */
 
 @page {
   size: 8.5in 11in;
