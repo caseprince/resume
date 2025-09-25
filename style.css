@@ -1,0 +1,231 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: ’’;
+  content: none;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  max-width: 980px;
+  padding: 0px 60px;
+  margin: 40px auto;
+}
+
+p,
+ul {
+  font-size: 15px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+p {
+  break-inside: avoid;
+}
+
+ul li {
+  list-style-type: "› ";
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  margin: 10px 0;
+}
+
+h1 {
+  font-size: 35px;
+  letter-spacing: -1px;
+  margin-bottom: 7px;
+  position: relative;
+  left: -2px;
+}
+nav {
+  line-height: 20px;
+}
+section {
+  padding: 20px 0 0 0;
+}
+
+section > header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  margin-bottom: 15px;
+}
+h2 {
+  font-size: 25px;
+  display: inline-block;
+  background-color: white;
+  padding-right: 5px;
+  position: relative;
+  top: 5px;
+}
+
+h3 {
+  margin-top: 11px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h4 {
+  margin-top: 5px;
+  display: block;
+  position: relative;
+  font-style: italic;
+  span {
+    font-style: normal;
+    position: absolute;
+    right: 0;
+  }
+}
+
+.degree {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.award {
+  margin-bottom: 10px;
+  h5 {
+    font-size: 16px;
+    font-weight: bold;
+  } 
+  p {
+    font-size: 15px;
+    margin: 3px 0 0 10px;
+  }
+}
+
+@media print {
+  body {
+    zoom: 75%;
+  }
+}
+
+@page {
+  size: 8.5in 11in;
+}
