@@ -129,7 +129,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   max-width: 980px;
   padding: 0px 60px;
-  margin: 40px auto;
+  margin: 40px auto 30px auto;
 }
 
 p,
@@ -168,6 +168,9 @@ nav {
 }
 section {
   padding: 20px 0 0 0;
+}
+section:last-of-type {
+  padding-bottom: 50px;
 }
 
 section > header {
@@ -224,9 +227,13 @@ h4 {
   body {
     zoom: 75%;
   }
+  .page-break {
+    display: block;
+    page-break-before: always;
+  }
 }
 
 @page {
   size: 8.5in 11in;
-  margin: 0.5in;
+  margin: 0.45in;
 }
