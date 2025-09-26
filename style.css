@@ -153,7 +153,7 @@ hr {
   border: 0;
   height: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.15);
-  margin: 10px 0;
+  margin: 15px 0;
 }
 
 h1 {
@@ -228,4 +228,5 @@ h4 {
 
 @page {
   size: 8.5in 11in;
+  margin: 0.5in;
 }
