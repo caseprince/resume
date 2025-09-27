@@ -143,6 +143,9 @@ p {
   break-inside: avoid;
 }
 
+strong {
+  font-weight: bold;
+}
 ul li {
   list-style-type: "› ";
   margin-bottom: 5px;
