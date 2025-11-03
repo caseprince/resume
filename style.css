@@ -129,7 +129,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   max-width: 980px;
   padding: 0px 60px;
-  margin: 40px auto 30px auto;
+  margin: 40px auto;
 }
 
 p,
@@ -242,5 +242,5 @@ strong {
 
 @page {
   size: 8.5in 11in;
-  margin: 0.45in;
+  margin: 0.45in 0.45in 0.65in;
 }
